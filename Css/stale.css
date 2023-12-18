@@ -1,0 +1,99 @@
+:root {
+  --color-primery-dark: #011c44;
+  --color-primery-light: #2b7fff;
+  --color-primery-transparent: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-family: "PLAY", sans-serif;
+  font-weight: 700;
+  font-size: 140px;
+  color: var(--color-primery-light);
+}
+
+h2 {
+  font-family: "play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+body {
+  color: var(--color-primery-dark);
+  font-family: "ROBOTO";
+  font-weight: 400;
+}
+
+.link {
+  color: var(--color-primery-dark);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primery-light);
+  text-decoration: none;
+}
+/* Footer */
+footer {
+  color: var(--color-primery-transparent);
+  background-color: var(--color-primery-dark);
+}
+
+.safety-date {
+  color: #747272;
+}
+
+.link-footer {
+  color: var(--color-primery-transparent);
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  color: var(--color-primery-light);
+  text-decoration: none;
+}
+
+.main-image {
+  width: 1501.96px;
+  height: 687.93px;
+}
+/* Button */
+.button {
+  color: var(--color-primery-transparent);
+  background-color: var(--color-primery-light);
+  border: 2px solid var(--color-primery-light);
+  border-radius: 32px;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+.button:active {
+  color: var(--color-primery-dark);
+  background-color: transparent;
+}
+
+/* Section */
+.hero-text {
+  color: #4a4a4a;
+  font-family: "ROBOTO";
+  font-weight: 400;
+}
+
+.hero-name {
+  color: var(--color-primery-light);
+}
+
+section .color-spectrum {
+  color: var(--color-primery-light);
+}
+
+.our-clinicText span {
+  text-transform: capitalize;
+  font-family: "ROBOTO";
+  font-weight: 600;
+}
